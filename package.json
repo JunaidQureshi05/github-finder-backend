@@ -1,28 +1,10 @@
 {
   "name": "github-token-api",
   "version": "1.0.0",
-  "main": "api/index.js",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "express": "^4.21.2",
-    "serverless-http": "^3.2.0"
-  },
-  "description": "",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "vercel dev",
-    "start": "node api/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JunaidQureshi05/github-finder-backend.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/JunaidQureshi05/github-finder-backend/issues"
-  },
-  "homepage": "https://github.com/JunaidQureshi05/github-finder-backend#readme"
+    "start": "vercel dev"
+  }
 }
