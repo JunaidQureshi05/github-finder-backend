@@ -10,7 +10,8 @@
   },
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vercel dev",
+    "start": "node api/index.js"
   },
   "repository": {
     "type": "git",
